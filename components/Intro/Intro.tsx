@@ -5,7 +5,7 @@ const Intro: React.FC = () => {
   return (
     <section className="w-screen h-screen relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-cover py-16 shadow-lg md:py-20 xl:py-48 ">
       {/* image - start */}
-      {/* <Image
+      <Image
         width="1920"
         height="1000"
         src="https://res.cloudinary.com/dma4fosaj/video/upload/c_scale,w_1920,h_1000/e_loop/q_30/fl_animated,fl_awebp/earth.webp"
@@ -13,7 +13,7 @@ const Intro: React.FC = () => {
         unoptimized
         loading="lazy"
         className="absolute inset-0 h-full w-full object-cover object-center"
-      /> */}
+      />
       {/* image - end */}
 
       {/* overlay - start */}
