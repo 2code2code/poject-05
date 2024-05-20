@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  /* background-color: white; */
+  background-image: radial-gradient(
+      circle at 25px 25px,
+      lightgray 2%,
+      transparent 0%
+    ),
+    radial-gradient(circle at 75px 75px, lightgray 2%, transparent 0%);
+  background-size: 100px 100px;
+}
